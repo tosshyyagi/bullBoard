@@ -121,7 +121,7 @@
 	if(empty($dele)==false){
 			$vpass="削除対象のパスワード";
 	}
-	if(empty($edit)==false){				//<br /><b>Notice</b>:  Undefined variable: vpass in <b>C:\xampp\htdocs\mission_4-1.php</b> on line <b>140</b><br />
+	if(empty($edit)==false){				
 			$vpass="編集対象のパスワード";
 	}
 	if(empty($nname) == false && empty($ncomment)==false){
