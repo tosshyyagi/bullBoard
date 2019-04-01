@@ -1,0 +1,38 @@
+body{
+	background-color:rgba(211,115,204,0.5);
+}
+
+header{
+	text-align:center;
+	background-color:rgb(91,235,153);
+	color:rgb(160,160,160);
+	
+}
+.contents-show{
+	background-color:#ffffff;
+	width:80%;
+	margin:0 auto;
+}
+
+.contents{
+	padding-left:13px;
+}
+
+.input-wrapper{
+
+	width:80%;
+	margin:0 auto;
+}
+
+.input-form{
+	background-color:#ffffff;
+	border-radius:25px;
+	width:380px;
+	margin-top:10px;
+	padding:5px 13px;
+	
+}
+
+.input-form h5{
+	border-bottom:solid 3px rgba(211,115,204,0.5);
+}
