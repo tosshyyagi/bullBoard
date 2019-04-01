@@ -1,7 +1,7 @@
 <?php
-	$dsn='mysql:dbname=myfsql;host=localhost'; //データベース名
-	$user='tosshyyagi';	//username
-	$password = 'kdmk4722592';		//password
+	$dsn='データベース名'; //データベース名
+	$user='username';	//username
+	$password = 'password';		//password
 	$pdo = new PDO($dsn,$user,$password,array(PDO::ATTR_ERRMODE =>
 	PDO::ERRMODE_WARNING));
 	$sql = "CREATE TABLE IF NOT EXISTS contribute"."("."id INT,"."name char(32),"."comment TEXT,"."datetime datetime,"."pass TEXT".");";
